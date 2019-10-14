@@ -10,7 +10,7 @@ The BMI Calculator using IF ELse
 """
 def bmi():
     "This method implements bmi"
-    weight=int(input("Enter teh weight in Kg"))
+    weight=int(input("Enter the weight in Kg"))
     height=int(input("Enter the height in meter"))
     bmi=weight/(height*height)
     print("BMI",bmi)
@@ -25,4 +25,4 @@ def bmi():
 
 #----START OF SCRIPT
 if __name__=='__main__':
-    bmi()
+    bmi() 
