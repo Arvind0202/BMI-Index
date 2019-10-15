@@ -4,7 +4,8 @@ Create a function to calculate BMI
 Create one more function for checking user category
 Create a function to read the CSV file and return the matched player'''
 
-
+#Gopalan college of engineering fdp
+#attending fdp in qxf2
 import csv
 weight=height=1
 def read_value():
@@ -23,9 +24,9 @@ def read_value():
             print("Invalid entry reenter the values....")
         
 def cal_bmi():    
-    bmi=round(weight/(height*height),2)
-    print("BMI",bmi)
-    return bmi
+    bmi_update=round(weight/(height*height),2)
+    print("BMI",bmi_update)
+    return bmi_update
 
 def check_bmi():
     bmicheck=cal_bmi()
