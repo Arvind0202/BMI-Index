@@ -15,14 +15,19 @@ Create one more function to calculate BMI
 Create one more function for checking user category
 """
 weight=height=1
+# Read Height and Weight
 def read_value():
     global weight,height
     weight=float(input("Enter the weight in Kg"))
     height=float(input("Enter the height in meter"))
+
+#calculate BMI
 def cal_bmi():    
     bmi=round(weight/(height*height),2)
     print("BMI",bmi)
     return bmi
+    
+# Check BMI
 def check_bmi():
     bmicheck=cal_bmi()
     if bmicheck<=18.5:
