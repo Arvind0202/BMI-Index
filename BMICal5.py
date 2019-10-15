@@ -8,6 +8,7 @@ Create a function to read the CSV file and return the matched player'''
 import csv
 weight=height=1
 def read_value():
+    "Reading the value"
     # exception handling. The tallest man is 2.72 m
     while True:
         try: 
